@@ -191,6 +191,9 @@ int main()
 	shape* l2 = &l;
 	line* l3 = l1;
 	
+	shape& ss = l;
+	ss.draw(cout);
+	
 	for(int i=0; i<10; i++)
 	{
 		for(int j=i+1; j<10; j++)
